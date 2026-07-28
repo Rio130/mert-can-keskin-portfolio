@@ -303,6 +303,7 @@ nav a:hover::after{
 }
 
 
+
 .buton:hover{
 
     transform:translateY(-5px);
@@ -755,5 +756,73 @@ footer{
 
     }
 
+}
+/* ==============================
+   PROJE TEKNOLOJİ BARLARI
+============================== */
 
+.proje-yetenek{
+    margin-top:25px;
+}
+
+
+.proje-yetenek p{
+    margin:12px 0 6px;
+    font-size:14px;
+}
+
+
+
+.proje-bar{
+
+    width:100%;
+
+    height:8px;
+
+    background:rgba(255,255,255,.25);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+
+
+.proje-seviye{
+
+    height:100%;
+
+    background:#7000ff;
+
+    border-radius:20px;
+
+}
+
+
+
+/* TEKNOLOJİ ORANLARI */
+
+.proje-seviye.html{
+    width:90%;
+}
+
+
+.proje-seviye.css{
+    width:85%;
+}
+
+
+.proje-seviye.javascript{
+    width:80%;
+}
+
+
+.proje-seviye.api{
+    width:70%;
+}
+
+
+.proje-seviye.leaflet{
+    width:60%;
 }
